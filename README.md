@@ -13,7 +13,7 @@ pipeline analyze your financial health, build a 50/30/20 budget, design a
 savings strategy, and synthesize it all into one coaching report — with
 interactive gauges, charts, and a downloadable summary.
 
-🔗 **[Live demo](#)** &nbsp;·&nbsp; 📺 **[Architecture](#-architecture)** &nbsp;·&nbsp; 🚀 **[Quick start](#-setup)**
+🔗 **[Live demo](https://ai-finance-coach-evy5be2pbnxyshwgksq3xv.streamlit.app)** &nbsp;·&nbsp; 📺 **[Architecture](#-architecture)** &nbsp;·&nbsp; 🚀 **[Quick start](#-setup)**
 
 > ⭐ If this project is useful or interesting to you, consider starring the repo — it helps others find it too.
 
