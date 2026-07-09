@@ -1,25 +1,32 @@
 # 💰 AI Personal Finance Coach
 
-An AI-powered personal finance coach that turns your income, expenses, and
-savings goals into a complete, personalized financial plan in under 60
-seconds — built with **LangGraph**, **Groq's LLaMA 3.3 70B**, and **Streamlit**.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-4--node%20pipeline-purple)
+![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-You fill in a simple form (income, expenses, goals), and a 4-step AI
-pipeline analyzes your financial health, builds a budget using the
-50/30/20 rule, designs a savings/investment strategy for the Indian
-context, and synthesizes it all into one final coaching report — complete
-with interactive charts and a downloadable summary.
+**Get a personalized financial plan in under 60 seconds — powered by a 4-stage AI reasoning pipeline.**
+
+Fill in your income, expenses, and savings goals, and watch a LangGraph
+pipeline analyze your financial health, build a 50/30/20 budget, design a
+savings strategy, and synthesize it all into one coaching report — with
+interactive gauges, charts, and a downloadable summary.
+
+🔗 **[Live demo](#)** &nbsp;·&nbsp; 📺 **[Architecture](#-architecture)** &nbsp;·&nbsp; 🚀 **[Quick start](#-setup)**
+
+> ⭐ If this project is useful or interesting to you, consider starring the repo — it helps others find it too.
 
 ---
 
-## ✨ Features
+## ✨ Why this project stands out
 
-- **Financial Health Score (0–100)** — a single gauge score blending your savings rate, needs ratio, and wants ratio
-- **50/30/20 budget comparison** — see your actual spending split vs the ideal Needs/Wants/Savings ratio
-- **Interactive visualizations** — expense pie chart, category radar chart, savings-goal projection line chart, all built with Plotly
-- **Goal tracking** — progress bar showing how close you are to your savings goal, with a month-by-month projection
-- **4-stage AI reasoning pipeline** (see Architecture below), each stage visible as its own tab so you can see exactly how the AI reasoned
-- **Downloadable report** — full plan exportable as a `.txt` file
+- 🧠 **4-stage AI reasoning pipeline** — Profile Analysis → Budget Breakdown → Savings Strategy → Final Report, each a distinct LangGraph node with its own focused prompt
+- 📊 **Financial Health Score** — a single 0-100 gauge blending savings rate, needs ratio, and wants ratio into one clear signal
+- ⚖️ **50/30/20 rule comparison** — visualizes your actual spending split against the ideal budget framework
+- 📈 **Full interactive dashboard** — pie charts, radar charts, savings-goal projections, all built with Plotly
+- 🇮🇳 **India-specific guidance** — savings/investment recommendations tuned for the Indian financial context (FD, PPF, SIP, etc.)
+- 📥 **Downloadable report** — export your complete plan as a shareable text file
 
 ---
 
@@ -86,6 +93,17 @@ state-passing design.
 
 ---
 
+## 🖼️ Screenshots
+
+<!-- Replace with real screenshots before sharing —
+     save them in a `screenshots/` folder and update paths below. -->
+
+| Financial Snapshot | Coaching Report |
+|---|---|
+| ![Snapshot](screenshots/snapshot.png) | ![Report](screenshots/report.png) |
+
+---
+
 ## 🚀 Setup
 
 ```bash
@@ -136,3 +154,9 @@ advisor before making real investment decisions.
 - Add expense tracking over time instead of a one-time snapshot
 - Support multiple currencies / non-Indian financial contexts
 - Add authentication so multiple users can save separate plans
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and learn from. See `LICENSE` for details.
